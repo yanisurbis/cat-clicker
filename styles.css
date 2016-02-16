@@ -1,0 +1,38 @@
+html {
+  background-color: white;
+}
+
+body, .hero, .footer {
+  font-family: 'PT Mono';
+  background-color: white;
+  /*font-size: 60px;*/
+  /*color: white;*/
+}
+
+.footer {
+  background-color: white;
+}
+
+.column {
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.columns {
+  background-color: white;
+}
+
+img {
+  -webkit-filter: grayscale(1);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: url(#greyscale);
+  filter: gray;
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
